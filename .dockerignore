@@ -1,0 +1,16 @@
+.git
+.github
+.railway
+node_modules
+coverage
+tmp
+work
+outputs
+pb_data
+*.db
+*.db-shm
+*.db-wal
+.DS_Store
+.env
+.env.*
+!.env.example

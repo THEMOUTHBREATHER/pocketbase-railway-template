@@ -1,0 +1,16 @@
+{
+  "name": "pocketbase-railway-template",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A maintainable Railway template source repository for PocketBase.",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "validate": "node scripts/validate-template.mjs",
+    "smoke:docker": "bash scripts/docker-smoke-test.sh",
+    "smoke:railway": "bash scripts/railway-smoke-test.sh"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
